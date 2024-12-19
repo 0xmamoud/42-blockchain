@@ -42,7 +42,7 @@ export default function EventsPage() {
                     className="border-light-blue text-light-blue 
                       hover:bg-light-blue/40 hover:text-white/90 bg-dark-blue w-full"
                   >
-                    <Link href={`${discordLink}`} target='_blank'>
+                    <Link href={String(discordLink)} target='_blank'>
                       Learn More
                     </Link>
                   </Button>
