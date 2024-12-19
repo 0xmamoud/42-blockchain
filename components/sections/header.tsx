@@ -21,7 +21,7 @@ export function Header() {
   return (
     <header className="sticky inset-0 bg-black/30 backdrop-blur-sm border-b border-white/10 z-50">
 
-      <div className="container mx-auto px-4 py-8 max-md:py-4 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-4 max-md:py-4 flex justify-between items-center">
         <Link href={"/"}>
           <Image
             src={logo}
