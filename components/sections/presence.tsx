@@ -1,13 +1,12 @@
 import React from 'react'
-import Image from 'next/image'
-
+import GlobeComponent from "@/components/ui/globe"
 export function Presence() {
   return (
     <section className="padding-y " id='about'>
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative max-md:hidden">
-            <Image src="" alt="Planet" width={300} height={300} />
+          <div className="relative max-md:hidden h-[600px]">
+            <GlobeComponent />
           </div>
           <div className="space-y-8">
             <h2 className="text-3xl font-bold">Global Presence, Local Impact</h2>

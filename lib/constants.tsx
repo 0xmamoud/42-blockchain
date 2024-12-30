@@ -19,6 +19,13 @@ import { Email } from '@/components/svg/email'
 import { YouTube } from '@/components/svg/youtube'
 import { Zealy } from '@/components/svg/zealy'
 
+export const campusList = [
+  { name: 'Paris', lat: 48.8566, lng: 2.3522 },
+  { name: 'San Francisco', lat: 37.7749, lng: -122.4194 },
+  { name: 'Seoul', lat: 37.5665, lng: 126.9780 },
+  { name: 'Sao Paulo', lat: -23.5505, lng: -46.6333 }
+];
+
 export const stats = [
   { label: "Members", value: "713", icon: Users },
   { label: "Campus", value: "54", icon: GraduationCap },
